@@ -14,6 +14,10 @@ It runs in a subfolder to match the deployment location. You can open the page a
 
     http://localhost:4000/pano-viewer/
 
+## Publishing
+
+This uses github pages, on the master branch, so a push to remote is all that's needed to publish. The public url is `http://www.simple.gy/pano-viewer/`.
+
 ## Adding images
 
 1. Drop new panoramas in `panos/full-size`.
@@ -23,5 +27,6 @@ It runs in a subfolder to match the deployment location. You can open the page a
 
 - [x] Show a list of panorma urls
 - [x] Support thumbnails/zoom in to full res
-- [ ] Detect vertical panoramas, show them differently
-- [ ] Support both list and full screen pano
+- [ ] Better full-screen panorama view (probably: fit narrower dimension to screen, scroll on the long dimension)
+- [ ] Support vertical panoramas (scroll horizontally in list view)
+- [ ] auto ken-burns if no mouse activity
