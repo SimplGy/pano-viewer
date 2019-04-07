@@ -1,0 +1,15 @@
+title: "Pano Viewer"
+baseurl: "/pano-viewer" # the subpath of your site, e.g. /blog
+# url: "http://www.simple.gy/pano-viewer/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: simplgy
+github_username:  simplgy
+permalink: /:title/
+host: 0.0.0.0 # allows external access
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - '/README.md'
+  - '*.sass'
