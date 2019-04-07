@@ -27,4 +27,16 @@ ul.panos li {
 ul.panos li, ul.panos a {
   display: block;
 }
+
+ul.panos a {
+  overflow: hidden;
+  max-height: 200px;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=all.css.map */

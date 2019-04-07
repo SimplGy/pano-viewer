@@ -17,5 +17,5 @@ while read file ; do
     if [[ ! -d "${outdir}" ]] ; then
         mkdir -p "${outdir}"
     fi
-    sips -s format jpeg -Z 1000 "${file}" --setProperty formatOptions 80 --out "${outname}"
+    sips -s format jpeg -Z 1440 "${file}" --setProperty formatOptions 80 --out "${outname}"
 done
